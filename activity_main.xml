@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F4F7FB">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Huawei Code Calculator" android:textSize="24sp" android:textStyle="bold" android:textColor="#0F172A" android:gravity="center" android:padding="8dp" />
+        <EditText android:id="@+id/txtImei" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter 15-digit IMEI" android:inputType="number" android:maxLength="15" android:textSize="18sp" android:background="#FFFFFF" android:padding="14dp" android:layout_marginTop="16dp" />
+        <Button android:id="@+id/btnCalculate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Calculate" android:layout_marginTop="14dp" />
+        <Button android:id="@+id/btnClear" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Clear" />
+        <TextView android:id="@+id/lblStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ready" android:textColor="#334155" android:gravity="center" android:padding="8dp" />
+        <EditText android:id="@+id/txtFlash" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Flash Code" android:focusable="false" android:padding="12dp" android:background="#FFFFFF" />
+        <Button android:id="@+id/btnCopyFlash" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Copy Flash" />
+        <EditText android:id="@+id/txtV1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="V1 Code" android:focusable="false" android:padding="12dp" android:background="#FFFFFF" />
+        <Button android:id="@+id/btnCopyV1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Copy V1" />
+        <EditText android:id="@+id/txtV2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="V2 Code" android:focusable="false" android:padding="12dp" android:background="#FFFFFF" />
+        <Button android:id="@+id/btnCopyV2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Copy V2" />
+        <EditText android:id="@+id/txtV201" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="V201 Code" android:focusable="false" android:padding="12dp" android:background="#FFFFFF" />
+        <Button android:id="@+id/btnCopyV201" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Copy V201" />
+        <Button android:id="@+id/btnCopyAll" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Copy All" android:layout_marginTop="10dp" />
+    </LinearLayout>
+</ScrollView>

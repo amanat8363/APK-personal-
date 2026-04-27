@@ -1,0 +1,19 @@
+GitHub par APK online build karne ka asan tareeqa:
+
+1. github.com par login karein.
+2. New repository banayein. Naam: HuaweiCalcAndroid
+3. Is ZIP ko extract karein.
+4. Extracted folder ke andar wali tamam files/folders GitHub repo mein upload karein:
+   - app
+   - build.gradle
+   - settings.gradle
+   - .github
+5. Upload ke baad repo mein Actions tab open karein.
+6. "Build Android APK" workflow par click karein.
+7. "Run workflow" button dabayein.
+8. Build complete hone ke baad same page ke neeche Artifacts section mein:
+   HuaweiCalc-debug-apk
+   download karein.
+9. ZIP extract karein, andar app-debug.apk hogi. Mobile mein install kar lein.
+
+Note: Agar GitHub Actions disabled aaye to green button "I understand my workflows, go ahead and enable them" par click karein.
